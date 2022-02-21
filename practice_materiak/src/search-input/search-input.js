@@ -1,0 +1,17 @@
+import React from "react";
+import useStyles from "../styles";
+
+
+const SearchInput = () => {
+    const classes =  useStyles()
+    return (
+        <div className={classes.serarch__panel}>
+        <label className={classes.label__input}>
+        <input placeholder="Search" type="text" className={classes.input__header}/>
+       <input type="button" value="Найти" className={classes.input__submit} />
+       <input type="button" value="Подать объявление"  className={classes.sell__input} />
+        </label>
+    </div>
+    )
+}
+export default SearchInput;
