@@ -12,11 +12,13 @@ const App = () => {
     const classes = useStyles();
     return (
         <>
-        <HeaderApp />
-            <main>
+        <div className={classes.header__block}>
+        <HeaderApp /> 
+        <SearchInput />  
+        </div>
+            <main className={classes.main}>
                 <div className={classes.container}>
                     <Container>
-                      <SearchInput />
                          <CategoryCard />
                     </Container> 
                 </div>  

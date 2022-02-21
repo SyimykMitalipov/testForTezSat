@@ -11,7 +11,7 @@ const classes = useStyles();
         <Container className={classes.header__container}>
         <CssBaseline />
         <AppBar position="relative" style={{ backgroundColor: '#ffffff', color: 'black', display: 'flex', justifyContent: 'space-around'}}>
-            <Toolbar spacing={0} className={classes.toobar__header}>
+            <Toolbar spacing={0} className={classes.toolbar__header}>
                <div className={classes.ulList}>
                <div className={classes.header__logo}>
                    <img src="/images/logo__tezsat.svg" alt="sss" />

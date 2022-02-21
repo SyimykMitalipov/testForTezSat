@@ -4,13 +4,9 @@ import { makeStyles } from "@mui/styles";
 
 
 const useStyles = makeStyles((theme) => ({
-    container: {
-        backgroudColor: 'blue',
-        padding: '30px',
-        '& li': {
-
-        }
-
+    header__block:{
+        width: '100%',
+        background: '#ffffff'
     },
     headerApp: {
         display: 'flex',
@@ -31,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     cardGrid: {
          padding: '20px 0',
          maxWidth: '1110px',
-         border: '2px solid red'
+        //  border: '2px solid red'
     },
     card: {
         width: '250px',
@@ -67,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
         width: '630px',
         listStyle: 'none',
         marginLeft: ' 20px',
-        border: '1px solid red',
+        // border: '1px solid red',
         marginLeft: '20px',
         ' & li ': {
             float: 'left',
@@ -78,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
     header__logo: {
         width: '380px',
         height: '80px',
-        border: '1px solid red',
+        // border: '1px solid red',
         ' & img' : {
             width: '100%',
             height: '80px',
@@ -90,7 +86,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'space-between',  
         marginLeft: '180px',    
-        border: '1px solid red' ,
+        // border: '1px solid red' ,
         alignItems: 'center',
 
     },
@@ -98,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
         width: '50px',
         height: '25px',
         marginLeft: '30px',
-        border: '1px solid red',
+        // border: '1px solid red',
         '& button': {
             width: '40px',
             height: '20px',
@@ -111,7 +107,7 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     button__login: {
-        border:'1 px solid red',
+        // border:'1 px solid red',
         '& button': {
             width: '90px',
             height: '25px',
@@ -202,8 +198,13 @@ const useStyles = makeStyles((theme) => ({
     newItem__blue: {
         color: '#0051BA'
     },
+    main: {
+        width: '100%',
+        background: '#E5E5E5',
+    },
     footer: {
-        backgroundColor: '#ffffff',
+        width: '100%' ,
+        backgroundColor: '#F4F4F4',
         padding: '50px 0',
     },
     footer__container: {
@@ -213,14 +214,14 @@ const useStyles = makeStyles((theme) => ({
     footer__txt1: {
         width: '520px',
         height: '230px',
-        border: '1px solid red'
+        // border: '1px solid red'
     },
     footer__blocks: {
         width: '100%',
         display: 'flex',
         justifyContent: 'space-around',
         alignItems: 'center',
-        border: '2px solid red '
+        // border: '2px solid red '
 
     },
     footer__title: {
@@ -235,12 +236,12 @@ const useStyles = makeStyles((theme) => ({
     footer__txt2: {
         width: '225px',
         hright: '190px',
-        border: '1px solid red'
+        // border: '1px solid red'
     },
     footer__subtitle2: {
         width:'240px',
         height: '200px',
-        border: '1px solid red ',
+        // border: '1px solid red ',
         '& li': {
             listStyle: 'none',
             fontSize: '15px',
@@ -249,6 +250,45 @@ const useStyles = makeStyles((theme) => ({
 
         }
     },
+    footer__txt3: {
+        width: '250px',
+        height: '190px',
+        // border: '2px solid red',
+        textAlign: 'center'
+    },
+    footer__end: {
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center'
+    },
+    footer__logo: {
+        width: '120px',
+        height: '30px',
+        '& img': {
+            width: '100%'
+            
+        }
+    },
+    footer__2021: {
+        width: '250px',
+        height: '20px',
+        // border: '1px solid red'
+    },
+    footer__2021txt: {
+        color: 'grey',
+        fontSize: '16px',
+    },
+    footer__icons: {
+        width: '300px',
+        height: '20px',
+        // border: '1px solid red',
+        '& img': {
+            width: '30px',
+            height: '20px',
+            marginLeft: '5px',
+        }
+    }
     
 }));
 
